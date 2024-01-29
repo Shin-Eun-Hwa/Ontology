@@ -1,0 +1,1321 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/singer/k-pop/idol/"
+     xml:base="http://www.semanticweb.org/singer/k-pop/idol/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:idol="http://www.semanticweb.org/singer/k-pop/idol#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/singer/k-pop/idol">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/singer/k-pop/idol"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#album_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/singer/k-pop/idol#album_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#is_affiliated -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/singer/k-pop/idol#is_affiliated"/>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#leader -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/singer/k-pop/idol#leader"/>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#member_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/singer/k-pop/idol#member_of"/>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#release -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/singer/k-pop/idol#release"/>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#sing -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/singer/k-pop/idol#sing"/>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#song_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/singer/k-pop/idol#song_of"/>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#title_song -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/singer/k-pop/idol#title_song"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#dabut_date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/singer/k-pop/idol#dabut_date"/>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#debut_year -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/singer/k-pop/idol#debut_year"/>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#number_of_members -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/singer/k-pop/idol#number_of_members"/>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#release_date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/singer/k-pop/idol#release_date"/>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#release_year -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/singer/k-pop/idol#release_year">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#Album -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/singer/k-pop/idol#Album"/>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#Boy_Group -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/singer/k-pop/idol#Boy_Group">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Group"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Girl_Group"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#Company -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/singer/k-pop/idol#Company"/>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#Generation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/singer/k-pop/idol#Generation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#Girl_Group -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/singer/k-pop/idol#Girl_Group">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Group"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#Group -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/singer/k-pop/idol#Group">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#Idol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/singer/k-pop/idol#Idol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#SInger"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#SInger -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/singer/k-pop/idol#SInger"/>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#Song -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/singer/k-pop/idol#Song"/>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#3rd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/singer/k-pop/idol#3rd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Generation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#4th -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/singer/k-pop/idol#4th">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Generation"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#ANTIFRAGILE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#ANTIFRAGILE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Album"/>
+        <idol:album_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#르세라핌"/>
+        <idol:title_song rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#antifragile"/>
+        <idol:release_date>10/17</idol:release_date>
+        <idol:release_year rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2022</idol:release_year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#After_Like -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#After_Like">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Album"/>
+        <idol:album_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#아이브"/>
+        <idol:title_song rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#after_like"/>
+        <idol:release_date>08/22</idol:release_date>
+        <idol:release_year rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2022</idol:release_year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#BORN_PINK -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#BORN_PINK">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Album"/>
+        <idol:album_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#블랙핑크"/>
+        <idol:release_date>09/16</idol:release_date>
+        <idol:release_year rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2022</idol:release_year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#BTS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#BTS">
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#방탄소년단"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#방탄소년단 -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/singer/k-pop/idol#방탄소년단"/>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#Butter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#Butter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Album"/>
+        <idol:album_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#방탄소년단"/>
+        <idol:title_song rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#butter"/>
+        <idol:release_date>05/21</idol:release_date>
+        <idol:release_year rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2021</idol:release_year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#Dynamite -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#Dynamite">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Album"/>
+        <idol:album_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#방탄소년단"/>
+        <idol:title_song rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#dynamite"/>
+        <idol:release_date>08/21</idol:release_date>
+        <idol:release_year rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2020</idol:release_year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#JYP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#JYP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Company"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#LOVE_DIVE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#LOVE_DIVE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Album"/>
+        <idol:album_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#아이브"/>
+        <idol:title_song rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#love_dive"/>
+        <idol:release_date>04/05</idol:release_date>
+        <idol:release_year rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2022</idol:release_year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#Love_Killa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#Love_Killa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Album"/>
+        <idol:album_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#몬스타엑스"/>
+        <idol:release_date>12/16</idol:release_date>
+        <idol:release_year rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2020</idol:release_year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#MY_WORLD -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#MY_WORLD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Album"/>
+        <idol:album_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#에스파"/>
+        <idol:title_song rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#spicy"/>
+        <idol:release_date>05/08</idol:release_date>
+        <idol:release_year rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2023</idol:release_year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#NO_LIMIT -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#NO_LIMIT">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Album"/>
+        <idol:album_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#몬스타엑스"/>
+        <idol:title_song rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#rush_hour"/>
+        <idol:release_date>11/19</idol:release_date>
+        <idol:release_year rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2021</idol:release_year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#New_Jeans -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#New_Jeans">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Album"/>
+        <idol:album_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#뉴진스"/>
+        <idol:release_date>08/01</idol:release_date>
+        <idol:release_year rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2022</idol:release_year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#Next_Level -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#Next_Level">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Album"/>
+        <idol:album_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#에스파"/>
+        <idol:title_song rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#next_level"/>
+        <idol:release_date>05/17</idol:release_date>
+        <idol:release_year rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2021</idol:release_year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#ODDINARY -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#ODDINARY">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Album"/>
+        <idol:album_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#스트레이키즈"/>
+        <idol:title_song rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#maniac"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#OMG -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#OMG">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Album"/>
+        <idol:album_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#뉴진스"/>
+        <idol:title_song rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#omg"/>
+        <idol:release_date>01/02</idol:release_date>
+        <idol:release_year rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2023</idol:release_year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#RM -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#RM">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#방탄소년단"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#SM -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#SM">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Company"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#SQUARE_UP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#SQUARE_UP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Album"/>
+        <idol:album_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#블랙핑크"/>
+        <idol:title_song rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#뚜두뚜두"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#UNFORGIVEN -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#UNFORGIVEN">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Album"/>
+        <idol:album_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#르세라핌"/>
+        <idol:title_song rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#unforgiven"/>
+        <idol:release_date>05/01</idol:release_date>
+        <idol:release_year rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2023</idol:release_year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#V -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#V">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#방탄소년단"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#YG -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#YG">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Company"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#after_like -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#after_like">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Song"/>
+        <idol:song_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#아이브"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#antifragile -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#antifragile">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Song"/>
+        <idol:song_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#르세라핌"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#attention -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#attention">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Song"/>
+        <idol:song_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#뉴진스"/>
+        <idol:title_song rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#New_Jeans"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#butter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#butter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Song"/>
+        <idol:song_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#방탄소년단"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#cookie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#cookie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Song"/>
+        <idol:song_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#뉴진스"/>
+        <idol:title_song rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#New_Jeans"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#dynamite -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#dynamite">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Song"/>
+        <idol:song_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#방탄소년단"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#hype_boy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#hype_boy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Song"/>
+        <idol:song_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#뉴진스"/>
+        <idol:title_song rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#New_Jeans"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#love_dive -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#love_dive">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Song"/>
+        <idol:song_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#아이브"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#love_killa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#love_killa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Song"/>
+        <idol:song_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#몬스타엑스"/>
+        <idol:title_song rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Love_Killa"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#maniac -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#maniac">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Song"/>
+        <idol:song_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#스트레이키즈"/>
+        <idol:title_song rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#ODDINARY"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#next_level -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#next_level">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Song"/>
+        <idol:song_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#에스파"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#omg -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#omg">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Song"/>
+        <idol:song_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#뉴진스"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#pink_venom -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#pink_venom">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Song"/>
+        <idol:song_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#블랙핑크"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#rush_hour -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#rush_hour">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Song"/>
+        <idol:song_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#몬스타엑스"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#shut_down -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#shut_down">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Song"/>
+        <idol:song_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#블랙핑크"/>
+        <idol:title_song rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#shut_down"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#spicy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#spicy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Song"/>
+        <idol:song_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#에스파"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#suger_rush_ride -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#suger_rush_ride">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Song"/>
+        <idol:song_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#투마로우바이투게더"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#unforgiven -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#unforgiven">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Song"/>
+        <idol:song_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#르세라핌"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#가을 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#가을">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#아이브"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#기현 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#기현">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#몬스타엑스"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#김채원 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#김채원">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#르세라핌"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#꿈의_장 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#꿈의_장">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Album"/>
+        <idol:album_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#투마로우바이투게더"/>
+        <idol:title_song rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#9와_4분의_3_승강장에서_너를_기다려"/>
+        <idol:release_date>10/21</idol:release_date>
+        <idol:release_year rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2019</idol:release_year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#뉴진스 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#뉴진스">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Girl_Group"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#4th"/>
+        <idol:is_affiliated rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#어도어"/>
+        <idol:release rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#New_Jeans"/>
+        <idol:release rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#OMG"/>
+        <idol:sing rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#attention"/>
+        <idol:sing rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#cookie"/>
+        <idol:sing rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#hype_boy"/>
+        <idol:sing rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#omg"/>
+        <idol:dabut_date>07/22</idol:dabut_date>
+        <idol:debut_year rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2022</idol:debut_year>
+        <idol:number_of_members rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</idol:number_of_members>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#닝닝 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#닝닝">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#에스파"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#다니엘 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#다니엘">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#뉴진스"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#뚜두뚜두 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#뚜두뚜두">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Song"/>
+        <idol:song_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#블랙핑크"/>
+        <idol:title_song rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#SQUARE_UP"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#레이 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#레이">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#아이브"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#로제 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#로제">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#블랙핑크"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#르세라핌 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#르세라핌">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Girl_Group"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#4th"/>
+        <idol:is_affiliated rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#쏘스뮤직"/>
+        <idol:leader rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#김채원"/>
+        <idol:release rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#ANTIFRAGILE"/>
+        <idol:release rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#UNFORGIVEN"/>
+        <idol:sing rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#antifragile"/>
+        <idol:sing rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#unforgiven"/>
+        <idol:dabut_date>05/02</idol:dabut_date>
+        <idol:debut_year rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2022</idol:debut_year>
+        <idol:number_of_members rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</idol:number_of_members>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#리노 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#리노">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#스트레이키즈"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#리사 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#리사">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#블랙핑크"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#리즈 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#리즈">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#아이브"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#몬스타엑스 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#몬스타엑스">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Boy_Group"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#3rd"/>
+        <idol:is_affiliated rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#스타쉽"/>
+        <idol:leader rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#셔누"/>
+        <idol:release rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Love_Killa"/>
+        <idol:release rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#NO_LIMIT"/>
+        <idol:sing rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#love_killa"/>
+        <idol:sing rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#rush_hour"/>
+        <idol:dabut_date>05/14</idol:dabut_date>
+        <idol:debut_year rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2015</idol:debut_year>
+        <idol:number_of_members rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</idol:number_of_members>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#민지 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#민지">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#뉴진스"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#민혁 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#민혁">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#몬스타엑스"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#방찬 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#방찬">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#스트레이키즈"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#방탄소년단 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#방탄소년단">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Boy_Group"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#3rd"/>
+        <idol:is_affiliated rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#하이브"/>
+        <idol:leader rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#RM"/>
+        <idol:release rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Butter"/>
+        <idol:release rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Dynamite"/>
+        <idol:sing rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#butter"/>
+        <idol:sing rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#dynamite"/>
+        <idol:dabut_date>06/13</idol:dabut_date>
+        <idol:debut_year rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2013</idol:debut_year>
+        <idol:number_of_members rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7</idol:number_of_members>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#범규 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#범규">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#투마로우바이투게더"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#블랙핑크 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#블랙핑크">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Girl_Group"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#3rd"/>
+        <idol:is_affiliated rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#YG"/>
+        <idol:release rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#BORN_PINK"/>
+        <idol:release rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#SQUARE_UP"/>
+        <idol:sing rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#pink_venom"/>
+        <idol:sing rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#shut_down"/>
+        <idol:sing rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#뚜두뚜두"/>
+        <idol:dabut_date>08/08</idol:dabut_date>
+        <idol:debut_year rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2016</idol:debut_year>
+        <idol:number_of_members rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</idol:number_of_members>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#사쿠라 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#사쿠라">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#르세라핌"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#세븐틴 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#세븐틴">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Boy_Group"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#3rd"/>
+        <idol:dabut_date>05/26</idol:dabut_date>
+        <idol:debut_year rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2015</idol:debut_year>
+        <idol:number_of_members rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">13</idol:number_of_members>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#셔누 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#셔누">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#몬스타엑스"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#수빈 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#수빈">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#투마로우바이투게더"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#슈가 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#슈가">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#방탄소년단"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#스타쉽 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#스타쉽">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Company"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#스트레이키즈 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#스트레이키즈">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Boy_Group"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#4th"/>
+        <idol:is_affiliated rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#JYP"/>
+        <idol:leader rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#방찬"/>
+        <idol:release rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#ODDINARY"/>
+        <idol:release rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#★★★★★"/>
+        <idol:sing rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#maniac"/>
+        <idol:sing rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#특"/>
+        <idol:dabut_date>03/25</idol:dabut_date>
+        <idol:debut_year rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2017</idol:debut_year>
+        <idol:number_of_members rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8</idol:number_of_members>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#승민 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#승민">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#스트레이키즈"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#쏘스뮤직 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#쏘스뮤직">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Company"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#아이브 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#아이브">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Girl_Group"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#4th"/>
+        <idol:is_affiliated rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#스타쉽"/>
+        <idol:leader rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#안유진"/>
+        <idol:release rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#After_Like"/>
+        <idol:release rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#LOVE_DIVE"/>
+        <idol:sing rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#after_like"/>
+        <idol:sing rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#love_dive"/>
+        <idol:dabut_date>12/01</idol:dabut_date>
+        <idol:debut_year rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2021</idol:debut_year>
+        <idol:number_of_members rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6</idol:number_of_members>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#아이엔 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#아이엔">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#스트레이키즈"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#아이엠 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#아이엠">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#몬스타엑스"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#안유진 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#안유진">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#아이브"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#어도어 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#어도어">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Company"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#에스파 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#에스파">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Girl_Group"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#4th"/>
+        <idol:is_affiliated rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#SM"/>
+        <idol:release rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#MY_WORLD"/>
+        <idol:release rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Next_Level"/>
+        <idol:dabut_date>11/17</idol:dabut_date>
+        <idol:debut_year rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2020</idol:debut_year>
+        <idol:number_of_members rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</idol:number_of_members>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#연준 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#연준">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#투마로우바이투게더"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#윈터 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#윈터">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#에스파"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#이름의_장 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#이름의_장">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Album"/>
+        <idol:album_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#투마로우바이투게더"/>
+        <idol:title_song rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#이름의_장"/>
+        <idol:release_year>01/27</idol:release_year>
+        <idol:release_year rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2023</idol:release_year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#이서 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#이서">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#아이브"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#장원영 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#장원영">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#아이브"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#정국 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#정국">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#방탄소년단"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#제니 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#제니">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#블랙핑크"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#제이홉 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#제이홉">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#방탄소년단"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#주헌 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#주헌">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#몬스타엑스"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#지민 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#지민">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#방탄소년단"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#지수 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#지수">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#블랙핑크"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#지젤 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#지젤">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#에스파"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#진 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#진">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#방탄소년단"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#창빈 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#창빈">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#스트레이키즈"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#카리나 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#카리나">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#에스파"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#카즈하 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#카즈하">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#르세라핌"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#태현 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#태현">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#투마로우바이투게더"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#투마로우바이투게더 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#투마로우바이투게더">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Boy_Group"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#4th"/>
+        <idol:is_affiliated rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#하이브"/>
+        <idol:leader rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#수빈"/>
+        <idol:release rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#꿈의_장"/>
+        <idol:release rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#이름의_장"/>
+        <idol:sing rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#suger_rush_ride"/>
+        <idol:sing rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#9와_4분의_3_승강장에서_너를_기다려"/>
+        <idol:dabut_date>03/04</idol:dabut_date>
+        <idol:debut_year rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2019</idol:debut_year>
+        <idol:number_of_members rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5</idol:number_of_members>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#특 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#특">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Song"/>
+        <idol:song_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#스트레이키즈"/>
+        <idol:title_song rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#★★★★★"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#필릭스 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#필릭스">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#스트레이키즈"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#하니 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#하니">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#뉴진스"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#하이브 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#하이브">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Company"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#한 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#한">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#스트레이키즈"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#해린 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#해린">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#뉴진스"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#허윤진 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#허윤진">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#르세라핌"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#현진 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#현진">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#스트레이키즈"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#형원 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#형원">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#몬스타엑스"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#혜인 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#혜인">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#뉴진스"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#홍은채 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#홍은채">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#르세라핌"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#휴닝카이 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#휴닝카이">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Idol"/>
+        <idol:member_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#투마로우바이투게더"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#9와_4분의_3_승강장에서_너를_기다려 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#9와_4분의_3_승강장에서_너를_기다려">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Song"/>
+        <idol:song_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#투마로우바이투게더"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/singer/k-pop/idol#★★★★★ -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/singer/k-pop/idol#★★★★★">
+        <rdf:type rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#Album"/>
+        <idol:album_of rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#스트레이키즈"/>
+        <idol:title_song rdf:resource="http://www.semanticweb.org/singer/k-pop/idol#특"/>
+        <idol:release_date>06/02</idol:release_date>
+        <idol:release_year rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2023</idol:release_year>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
