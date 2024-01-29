@@ -1,0 +1,380 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.university.ac.kr/ontology#"
+     xml:base="http://www.university.ac.kr/ontology"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.university.ac.kr/ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#College -->
+
+    <owl:Class rdf:about="http://www.university.ac.kr/ontology#College">
+        <rdfs:subClassOf rdf:resource="http://www.university.ac.kr/ontology#University"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#University -->
+
+    <owl:Class rdf:about="http://www.university.ac.kr/ontology#University"/>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#간호대학 -->
+
+    <owl:Class rdf:about="http://www.university.ac.kr/ontology#간호대학">
+        <rdfs:subClassOf rdf:resource="http://www.university.ac.kr/ontology#College"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#경영대학 -->
+
+    <owl:Class rdf:about="http://www.university.ac.kr/ontology#경영대학">
+        <rdfs:subClassOf rdf:resource="http://www.university.ac.kr/ontology#College"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#공과대학 -->
+
+    <owl:Class rdf:about="http://www.university.ac.kr/ontology#공과대학">
+        <rdfs:subClassOf rdf:resource="http://www.university.ac.kr/ontology#College"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#농생명과학대학 -->
+
+    <owl:Class rdf:about="http://www.university.ac.kr/ontology#농생명과학대학">
+        <rdfs:subClassOf rdf:resource="http://www.university.ac.kr/ontology#College"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#미술대학 -->
+
+    <owl:Class rdf:about="http://www.university.ac.kr/ontology#미술대학">
+        <rdfs:subClassOf rdf:resource="http://www.university.ac.kr/ontology#College"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#사범대학 -->
+
+    <owl:Class rdf:about="http://www.university.ac.kr/ontology#사범대학">
+        <rdfs:subClassOf rdf:resource="http://www.university.ac.kr/ontology#College"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#사회과학대학 -->
+
+    <owl:Class rdf:about="http://www.university.ac.kr/ontology#사회과학대학">
+        <rdfs:subClassOf rdf:resource="http://www.university.ac.kr/ontology#College"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#생활과학대학 -->
+
+    <owl:Class rdf:about="http://www.university.ac.kr/ontology#생활과학대학">
+        <rdfs:subClassOf rdf:resource="http://www.university.ac.kr/ontology#College"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#수의과대학 -->
+
+    <owl:Class rdf:about="http://www.university.ac.kr/ontology#수의과대학">
+        <rdfs:subClassOf rdf:resource="http://www.university.ac.kr/ontology#College"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#약학대학 -->
+
+    <owl:Class rdf:about="http://www.university.ac.kr/ontology#약학대학">
+        <rdfs:subClassOf rdf:resource="http://www.university.ac.kr/ontology#College"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#음악대학 -->
+
+    <owl:Class rdf:about="http://www.university.ac.kr/ontology#음악대학">
+        <rdfs:subClassOf rdf:resource="http://www.university.ac.kr/ontology#College"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#의과대학 -->
+
+    <owl:Class rdf:about="http://www.university.ac.kr/ontology#의과대학">
+        <rdfs:subClassOf rdf:resource="http://www.university.ac.kr/ontology#College"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#인문대학 -->
+
+    <owl:Class rdf:about="http://www.university.ac.kr/ontology#인문대학">
+        <rdfs:subClassOf rdf:resource="http://www.university.ac.kr/ontology#College"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#자연과학대학 -->
+
+    <owl:Class rdf:about="http://www.university.ac.kr/ontology#자연과학대학">
+        <rdfs:subClassOf rdf:resource="http://www.university.ac.kr/ontology#College"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#간호학과 -->
+
+    <owl:NamedIndividual rdf:about="http://www.university.ac.kr/ontology#간호학과">
+        <rdf:type rdf:resource="http://www.university.ac.kr/ontology#간호대학"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#경영학과 -->
+
+    <owl:NamedIndividual rdf:about="http://www.university.ac.kr/ontology#경영학과">
+        <rdf:type rdf:resource="http://www.university.ac.kr/ontology#경영대학"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#교육학과 -->
+
+    <owl:NamedIndividual rdf:about="http://www.university.ac.kr/ontology#교육학과">
+        <rdf:type rdf:resource="http://www.university.ac.kr/ontology#사범대학"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#농경제사회학부 -->
+
+    <owl:NamedIndividual rdf:about="http://www.university.ac.kr/ontology#농경제사회학부">
+        <rdf:type rdf:resource="http://www.university.ac.kr/ontology#농생명과학대학"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#물리교육과 -->
+
+    <owl:NamedIndividual rdf:about="http://www.university.ac.kr/ontology#물리교육과">
+        <rdf:type rdf:resource="http://www.university.ac.kr/ontology#사범대학"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#바이오시스템소재학부 -->
+
+    <owl:NamedIndividual rdf:about="http://www.university.ac.kr/ontology#바이오시스템소재학부">
+        <rdf:type rdf:resource="http://www.university.ac.kr/ontology#농생명과학대학"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#생명과학부 -->
+
+    <owl:NamedIndividual rdf:about="http://www.university.ac.kr/ontology#생명과학부">
+        <rdf:type rdf:resource="http://www.university.ac.kr/ontology#자연과학대학"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#서양화과 -->
+
+    <owl:NamedIndividual rdf:about="http://www.university.ac.kr/ontology#서양화과">
+        <rdf:type rdf:resource="http://www.university.ac.kr/ontology#미술대학"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#성악과 -->
+
+    <owl:NamedIndividual rdf:about="http://www.university.ac.kr/ontology#성악과">
+        <rdf:type rdf:resource="http://www.university.ac.kr/ontology#음악대학"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#소비자아동학부 -->
+
+    <owl:NamedIndividual rdf:about="http://www.university.ac.kr/ontology#소비자아동학부">
+        <rdf:type rdf:resource="http://www.university.ac.kr/ontology#생활과학대학"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#수의예과 -->
+
+    <owl:NamedIndividual rdf:about="http://www.university.ac.kr/ontology#수의예과">
+        <rdf:type rdf:resource="http://www.university.ac.kr/ontology#수의과대학"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#수의학과 -->
+
+    <owl:NamedIndividual rdf:about="http://www.university.ac.kr/ontology#수의학과">
+        <rdf:type rdf:resource="http://www.university.ac.kr/ontology#수의과대학"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#심리학과 -->
+
+    <owl:NamedIndividual rdf:about="http://www.university.ac.kr/ontology#심리학과">
+        <rdf:type rdf:resource="http://www.university.ac.kr/ontology#사회과학대학"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#약학과 -->
+
+    <owl:NamedIndividual rdf:about="http://www.university.ac.kr/ontology#약학과">
+        <rdf:type rdf:resource="http://www.university.ac.kr/ontology#약학대학"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#언론정보학과 -->
+
+    <owl:NamedIndividual rdf:about="http://www.university.ac.kr/ontology#언론정보학과">
+        <rdf:type rdf:resource="http://www.university.ac.kr/ontology#사회과학대학"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#언어학과 -->
+
+    <owl:NamedIndividual rdf:about="http://www.university.ac.kr/ontology#언어학과">
+        <rdf:type rdf:resource="http://www.university.ac.kr/ontology#인문대학"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#영어영문학과 -->
+
+    <owl:NamedIndividual rdf:about="http://www.university.ac.kr/ontology#영어영문학과">
+        <rdf:type rdf:resource="http://www.university.ac.kr/ontology#인문대학"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#의류학과 -->
+
+    <owl:NamedIndividual rdf:about="http://www.university.ac.kr/ontology#의류학과">
+        <rdf:type rdf:resource="http://www.university.ac.kr/ontology#생활과학대학"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#의예과 -->
+
+    <owl:NamedIndividual rdf:about="http://www.university.ac.kr/ontology#의예과">
+        <rdf:type rdf:resource="http://www.university.ac.kr/ontology#의과대학"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#의학과 -->
+
+    <owl:NamedIndividual rdf:about="http://www.university.ac.kr/ontology#의학과">
+        <rdf:type rdf:resource="http://www.university.ac.kr/ontology#의과대학"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#재료공학부 -->
+
+    <owl:NamedIndividual rdf:about="http://www.university.ac.kr/ontology#재료공학부">
+        <rdf:type rdf:resource="http://www.university.ac.kr/ontology#공과대학"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#제약학과 -->
+
+    <owl:NamedIndividual rdf:about="http://www.university.ac.kr/ontology#제약학과">
+        <rdf:type rdf:resource="http://www.university.ac.kr/ontology#약학대학"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#조소과 -->
+
+    <owl:NamedIndividual rdf:about="http://www.university.ac.kr/ontology#조소과">
+        <rdf:type rdf:resource="http://www.university.ac.kr/ontology#미술대학"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#컴퓨터공학부 -->
+
+    <owl:NamedIndividual rdf:about="http://www.university.ac.kr/ontology#컴퓨터공학부">
+        <rdf:type rdf:resource="http://www.university.ac.kr/ontology#공과대학"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#통계학과 -->
+
+    <owl:NamedIndividual rdf:about="http://www.university.ac.kr/ontology#통계학과">
+        <rdf:type rdf:resource="http://www.university.ac.kr/ontology#자연과학대학"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.university.ac.kr/ontology#피아노과 -->
+
+    <owl:NamedIndividual rdf:about="http://www.university.ac.kr/ontology#피아노과">
+        <rdf:type rdf:resource="http://www.university.ac.kr/ontology#음악대학"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
